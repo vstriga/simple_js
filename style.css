@@ -1,0 +1,37 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+}
+.main{
+    width: 300px;
+}
+select{
+    width: 100%;
+    border: 2px solid black;
+}
+.input-line{
+    width: 70%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+
+.input-btn {
+    width: 25%;
+    margin: 0;
+    border: 2px solid black;
+    background-color: aliceblue;
+
+    
+    
+}
+.input-block {
+    width: 300px;
+}
