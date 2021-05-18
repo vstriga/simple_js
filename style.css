@@ -14,20 +14,56 @@ h2 {
   width: 300px;
 }
 select {
-  width: 100%;
-  border: 2px solid black;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 2px 2px 2px 2px;
+  background-color: white;
+  height: 30px;
+  padding: 0 10px;
 }
 .input-line {
   width: 70%;
-  border: 2px solid black;
+  float: left;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 2px 0 0 2px;
   margin: 0;
 }
+.input-line:focus-visible {
+  width: 70%;
+  float: left;
+  outline: none;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 2px 0 0 2px;
+  margin: 0;
+}
+.input-line-invalid {
+  width: 70%;
+  float: left;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 2px 0 0 2px;
 
+  margin: 0;
+}
 .input-btn {
   width: 25%;
+  float: left;
+  height: 34px;
   margin: 0;
-  border: 2px solid black;
-  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 0 2px 2px 0;
+  background-color: white;
+}
+.input-btn-invalid {
+  width: 25%;
+  float: left;
+  height: 34px;
+  margin: 0;
+  border: 1px solid red;
+  border-radius: 0 2px 2px 0;
+  background-color: white;
 }
 .input-block {
   width: 300px;

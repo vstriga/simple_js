@@ -9,16 +9,17 @@
   </head>
   <body>
     <div class="main">
-      <form action="" name="name">
+      <form name="name">
         <h1>Home</h1>
         <select name="listname" id="listname" onchange="insertName()">
-          <option value="">Name1</option>
-          <option value="">Name2</option>
-          <option value="">Name3</option>
+          <option value="" class="">Name1</option>
+          <option value="" class="">Name2</option>
+          <option value="" class="">Name3</option>
         </select>
         <h2>Edit home</h2>
         <div class="input-block">
           <input
+            onfocus="inputColor()"
             class="input-line"
             type="text"
             value=""
@@ -27,6 +28,7 @@
           />
           <input
             class="input-btn"
+            id="i_btn"
             type="button"
             value="Save"
             onclick="saveBtn()"
